@@ -5,6 +5,11 @@
   "repository": "git@github.com:Belzee10/provoke-array.git",
   "author": "Ivan <belzee92@gmail.com>",
   "license": "MIT",
+  "keywords": [
+    "generate array",
+    "generate custom array",
+    "array generator"
+  ],
   "scripts": {
     "build": "webpack --mode=production"
   },
