@@ -1,0 +1,20 @@
+{
+  "name": "provoke-array",
+  "version": "1.0.0",
+  "main": "dist/provoke-array.js",
+  "repository": "git@github.com:Belzee10/provoke-array.git",
+  "author": "Ivan <belzee92@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack --mode=production"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.7.0",
+    "@babel/core": "^7.7.2",
+    "@babel/node": "^7.7.0",
+    "@babel/preset-env": "^7.7.1",
+    "babel-loader": "^8.0.6",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10"
+  }
+}
