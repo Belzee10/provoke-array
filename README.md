@@ -22,6 +22,8 @@ By default it returns an array with 3 positions containing empty objects (this i
 import provokeArray from "provoke-array";
 
 provokeArray();
+
+// Result:
 // [{}, {}, {}]
 ```
 
@@ -38,6 +40,8 @@ provokeArray(2, i => {
     name: `Name: ${i}`
   };
 });
+
+// Result:
 // [
 //     {
 //         id: 0,
@@ -64,6 +68,8 @@ provokeArray(2, i => {
     name: faker.name.firstName()
   };
 });
+
+// Result:
 // [
 //     {
 //         id: 0,
