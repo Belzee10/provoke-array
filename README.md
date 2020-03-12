@@ -29,17 +29,15 @@ provokeArray();
 
 #### Custom return
 
-You can customize what the function returns by passing a function as 2nd argument.
+You can customize what it returns by passing a function as 2nd argument.
 
 ```js
 import provokeArray from "provoke-array";
 
-provokeArray(2, i => {
-  return {
-    id: i,
-    name: `Name: ${i}`
-  };
-});
+provokeArray(2, (i) => ({
+  id: i,
+  name: `Name: ${i}`
+}));
 
 // Result:
 // [
@@ -62,12 +60,10 @@ You can use it with [faker](https://github.com/marak/Faker.js/) to generate more
 import provokeArray from "provoke-array";
 import faker from "faker";
 
-provokeArray(2, i => {
-  return {
-    id: i,
-    name: faker.name.firstName()
-  };
-});
+provokeArray(2, i => ({
+  id: i,
+  name: faker.name.firstName()
+}));
 
 // Result:
 // [
