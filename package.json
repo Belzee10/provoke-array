@@ -1,7 +1,7 @@
 {
   "name": "provoke-array",
   "description": "Array generator",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "main": "dist/provoke-array.js",
   "repository": "git@github.com:Belzee10/provoke-array.git",
   "author": "Ivan <belzee92@gmail.com>",
